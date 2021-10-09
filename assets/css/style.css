@@ -13,7 +13,8 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: 'Poppins', sans-serif;
   color: #444444;
 }
 
@@ -28,7 +29,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -44,19 +46,21 @@ section {
   padding-bottom: 40px;
 }
 .section-header h2 {
-  font-size: 13px;
+  font-size: 19px;
   letter-spacing: 1px;
-  font-weight: 700;
+  font-weight: 400;
   margin: 0;
-  color: #4154f1;
-  text-transform: uppercase;
+  color: #797979;
+  line-height: 135%;
+  
+  /* text-transform: uppercase; */
 }
 .section-header p {
   margin: 10px 0 0 0;
   padding: 0;
   font-size: 38px;
   line-height: 42px;
-  font-weight: 700;
+  font-weight: 600;
   color: #012970;
 }
 @media (max-width: 768px) {
@@ -173,7 +177,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 3px;
 }
 
@@ -201,9 +205,9 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   color: #013289;
   white-space: nowrap;
   transition: 0.3s;
@@ -383,14 +387,16 @@ section {
 }
 .hero h1 {
   margin: 0;
-  font-size: 43px;
-  font-weight: 700;
+  font-size: 39px;
+  font-weight: 600;
   color: #012970;
 }
 .hero h2 {
-  color: #444444;
+  color: #797979;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 145%;
 }
 .hero .btn-get-started {
   margin-top: 30px;
@@ -403,8 +409,8 @@ section {
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
 }
@@ -487,7 +493,7 @@ section {
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -519,7 +525,7 @@ section {
 .values .box h3 {
   font-size: 24px;
   color: #012970;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 18px;
 }
 .values .box:hover {
@@ -558,7 +564,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
 
@@ -654,7 +660,7 @@ section {
 }
 .features .feature-icons .content .icon-box h4 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   margin: 0 0 10px 0;
   color: #012970;
 }
@@ -857,7 +863,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   transition: 0.3s;
   border: 1px solid #4154f1;
@@ -887,7 +893,7 @@ section {
 }
 .faq .accordion-button {
   padding: 15px 15px 20px 0;
-  font-weight: 600;
+  font-weight: 500;
   border: 0;
   font-size: 18px;
   color: #444444;
@@ -1899,7 +1905,7 @@ section {
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 500;
   color: #012970;
 }
 .footer .footer-newsletter form {
@@ -1961,14 +1967,14 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 3px;
 }
 .footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .footer .footer-top .social-links a {
   font-size: 20px;
